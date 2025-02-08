@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', ui-sans-serif, system-ui, -apple-system,
+               'Segoe UI', Roboto, Arial, 'Noto Sans', sans-serif,
+               'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  scroll-margin-top: 90px;
+  font-size: 14px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, p, span {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.01rem;
+  line-height: 1.75rem;
+}
+h2 {
+  font-size: 1rem;
+  letter-spacing: -0.003rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+p {
+  font-size: 1em;
+  line-height: 1.714;
+  font-weight: normal;
+  margin-bottom: 0px;
+  letter-spacing: -0.005em;
+}
+span {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-transform: none;
+}
